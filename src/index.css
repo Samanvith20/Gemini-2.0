@@ -3,7 +3,7 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
-  font-family: "outfit";
+  font-family:Outfit
 }
 
 #root{
@@ -11,3 +11,4 @@
   display: flex;
  
 }
+
