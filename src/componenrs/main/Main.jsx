@@ -5,7 +5,7 @@ import { useContext } from "react";
 const Main = () => {
   const{  input,
     setInput,
-    prevPrompt,
+    
     loading,
     resultData,
     onSend,
