@@ -11,7 +11,7 @@
     font-size: 22px;
     padding: 20px;
     color: #585858;
-    margin-left: 30px;
+    
 }
 .main .nav img{
     width: 40px;
@@ -23,7 +23,7 @@
   }
   .main .greet{
     margin: 50px  ,0px;
-    font-size: 50px;
+    font-size: 56px;
     color: #c4c7c5;
      font-weight: 500;
      padding: 20px;
@@ -91,9 +91,10 @@
     cursor: pointer;
    }
     .search input{
+        flex: 1;
      border: none;
      outline: none;
-     flex: 1;
+     
      background: transparent;
     font-size: 18px;
     padding: 8px;
@@ -105,12 +106,12 @@
     }
 
     .main .bottom-info{
-        font-size: 15px;
+        font-size: 13px;
         margin: 15px auto;
         text-align: center;
         font-weight: 300;
     }
-    .result{
+    .result{ 
         padding: 0px,5%;
         max-height: 70vh;
         overflow-y: scroll;
@@ -164,4 +165,20 @@
         100%{
             background-position: 800px,0;
         }
+    }
+    @media (max-width: 600px) {
+        .main .bottom input{
+            flex: none;
+            width: 150px;
+        }
+        .main .bottom img{
+            width: 20px;
+        }
+        .search{
+            padding: 5px,10px;
+        }
+        .search div{
+            gap:5px
+        }
+        
     }
